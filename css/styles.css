@@ -1,0 +1,62 @@
+.splash{
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+
+}
+.splash h1{
+color: #dee6f4;
+  font-size: 8em;
+  padding-bottom: 20px;
+}
+.splash h2{
+    font-family: 'Arima Madurai', cursive;
+color: #dee6f4;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #f9ce95;
+}
+.splash p{
+  padding-top: 60px;
+  font-family: 'Arima Madurai', cursive;
+  color: #dee6f4;
+  font-size: 2em;
+}
+.splash .col-md-8{
+  padding-top: 100px;
+  margin-bottom: 200px;
+}
+.splash a {
+  text-align: center;
+    text-decoration: none;
+  color: #dee6f4;
+}
+.row {
+  margin-left: 0px;
+  margin-right: 0px;
+  padding:0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.splash .row:first-child {
+    background-image: url("../img/splashpic.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+
+}
+
+
+.container{
+  width: 100%;
+  padding:10px;
+
+}
+body{
+
+  background-color: #fffaf2;
+}
+.splash a:hover {
+  color: #9ca2ad;
+
+}
