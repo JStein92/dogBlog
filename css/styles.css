@@ -9,10 +9,7 @@ color: #dee6f4;
   padding-bottom: 20px;
 }
 .splash h2{
-    font-family: 'Arima Madurai', cursive;
-color: #dee6f4;
-  padding-bottom: 10px;
-  border-bottom: 5px solid #f9ce95;
+
 }
 .splash p{
   padding-top: 60px;
@@ -25,9 +22,13 @@ color: #dee6f4;
   margin-bottom: 200px;
 }
 .splash a {
-  text-align: center;
+  font-family: 'Arima Madurai', cursive;
+
+padding-bottom: 10px;
+border-bottom: 5px solid #f9ce95;
+  text-decoration: none;
     text-decoration: none;
-  color: #dee6f4;
+color: #dee6f4;
 }
 .row {
   margin-left: 0px;

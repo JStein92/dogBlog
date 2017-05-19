@@ -39,13 +39,13 @@ $('#title').animate({
   }
 
   );
-});
 
-$(".splash h2").hover(function(){
-  $(this).stop().animate({borderBottomWidth: "15px"});
 
-});
-$(".splash h2").mouseleave(function(){
-  $(this).stop().animate({borderBottomWidth: "5px"});
+  $(".splash a").hover(function(){
+    $(this).stop().animate({borderBottomWidth: "15px"});
+  });
+  $(".splash a").mouseleave(function(){
+    $(this).stop().animate({borderBottomWidth: "5px"});
+  });
 
 });
