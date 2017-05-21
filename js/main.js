@@ -48,4 +48,8 @@ $('#title').animate({
     $(this).stop().animate({borderBottomWidth: "5px"});
   });
 
+  $('.splash a').click(function(){
+
+  });
+
 });
