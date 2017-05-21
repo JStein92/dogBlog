@@ -8,9 +8,7 @@
   font-size: 8em;
   padding-bottom: 20px;
 }
-.splash h2{
 
-}
 .splash p{
   padding-top: 80px;
   font-family: 'Arima Madurai', cursive;
@@ -23,8 +21,7 @@
 }
 .splash a {
   font-family: 'Arima Madurai', cursive;
-
-  padding-bottom: 0px;
+font-size: 120%;
   border-bottom: 5px solid #f9ce95;
   text-decoration: none;
   text-decoration: none;
@@ -51,10 +48,10 @@
   padding-top: 0px;
   margin-top: 0px;
   text-align: center;
-  font-size: 300%;
+  font-size: 400%;
   font-weight: bold;
   margin-bottom: 70px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   border-bottom: 5px dashed #e8e2d5;
 }
 .content {
@@ -71,7 +68,7 @@ figure {
 
   padding: 8px;
   background: #fff;
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
 }
 
@@ -79,8 +76,7 @@ figure img{
   height: auto;
   width: 100%;
   background: rgba(0,0,0,0.1);
-  width= 600px ;
-  height= 400px;
+
   -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -o-transition: all 1s;
@@ -134,7 +130,6 @@ figure:hover img {
   width: 100%;
 
 }
-
 
 .container{
   width: 100%;
