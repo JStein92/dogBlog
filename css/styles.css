@@ -50,25 +50,21 @@ font-size: 120%;
   text-align: center;
   font-size: 400%;
   font-weight: bold;
-  margin-bottom: 70px;
-  padding-bottom: 50px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
   border-bottom: 5px dashed #e8e2d5;
 }
 .content {
   text-align: center;
 
 }
-.contentMain{
-
-}
 
 figure {
   display:inline-block;
   position: relative;
-
   padding: 8px;
   background: #fff;
-  width: 800px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -110,9 +106,7 @@ figure:hover .desc {
 }
 figure:hover img {
  transform: scale(1.03);
-
 }
-
 .row {
   min-width: 500px;
   margin-left: 0px;

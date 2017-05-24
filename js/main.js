@@ -5,38 +5,38 @@ $("#link3").css("visibility", "hidden");
 $(".splash p").css("visibility", "hidden");
 $(document).ready(function(){
 
-$(".col-md-8").css("visibility", "visible");
-$(".col-md-8").hide();
-$(".col-md-8").fadeIn(2000);
+  $(".col-md-8").css("visibility", "visible");
+  $(".col-md-8").hide();
+  $(".col-md-8").fadeIn(2000);
 
-$('#title').animate({
-  fontSize:'5em'},{
-    duration: 1200,
-    complete: function(){
+  $('#title').animate({
+    fontSize:'5em'},{
+      duration: 1200,
+      complete: function(){
         $("#link1").hide();
         $("#link2").hide();
         $("#link3").hide();
-      $("#link1").css("visibility", "visible");
-      $("#link2").css("visibility", "visible");
-      $("#link3").css("visibility", "visible");
-      $("#link1").fadeIn(1000);
-      $("#link2").fadeIn(1400);
-      $("#link3").fadeIn(1800);
+        $("#link1").css("visibility", "visible");
+        $("#link2").css("visibility", "visible");
+        $("#link3").css("visibility", "visible");
+        $("#link1").fadeIn(1000);
+        $("#link2").fadeIn(1400);
+        $("#link3").fadeIn(1800);
 
         $(".splash .col-md-8").animate({
           paddingTop: "10px",
           marginBottom: "100px"
         },{
-            duration: 800,
+          duration: 800,
 
-              complete: function(){
-                $(".splash p").hide();
-                $(".splash p").fadeIn(1000);
-                $(".splash p").css("visibility", "visible");
-              }
+          complete: function(){
+            $(".splash p").hide();
+            $(".splash p").fadeIn(1000);
+            $(".splash p").css("visibility", "visible");
+          }
         });
+      }
     }
-  }
 
   );
 
@@ -51,5 +51,28 @@ $('#title').animate({
   $('.splash a').click(function(){
 
   });
+
+  $('#buttonLargerImages').click(function(){
+    $( "figure" ).animate({
+      width: "800",
+    }, 200, function() {
+      // Animation complete.
+    });
+  });
+  $('#buttonSmallerImages').click(function(){
+    $( "figure" ).animate({
+      width: "400",
+    }, 200, function() {
+      // Animation complete.
+    });
+  });
+  $('#buttonDefaultImages').click(function(){
+    $( "figure" ).animate({
+      width: "600",
+    }, 200, function() {
+      // Animation complete.
+    });
+  });
+
 
 });
